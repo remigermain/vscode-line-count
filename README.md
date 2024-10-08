@@ -9,6 +9,7 @@
     <a href="https://github.com/remigermain/vscode-line-count/blob/main/LICENSE">
     <img src="https://img.shields.io/badge/license-MIT-blue" alt="License" />
     </a>
+    <br />
     <img src="https://github.com/remigermain/vscode-line-count/blob/main/img/image.png?raw=true" alt="preview" >
 </div>
 
