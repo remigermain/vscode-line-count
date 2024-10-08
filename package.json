@@ -1,0 +1,36 @@
+{
+  "name": "editor-selection-extras",
+  "displayName": "Editor selection extras",
+  "description": "Display lines/chars number selected and position",
+  "version": "1.0.0",
+  "publisher": "remigermain",
+  "icon": "icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/remigermain/vscode-line-count.git"
+  },
+  "bugs": {
+    "url": "https://github.com/remigermain/vscode-line-count.git/issues"
+  },
+  "engines": {
+    "vscode": "^1.32.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "*"
+  ],
+  "main": "./out/extension.js",
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "build": "vsce package --allow-star-activation -o ./release", 
+    "compile": "tsc -p ./",
+    "lint": "tslint -p ./",
+    "watch": "tsc -watch -p ./"
+  },
+  "devDependencies": {
+    "typescript": "^3.5.1",
+    "@types/vscode": "^1.32.0"
+  }
+}
