@@ -3,9 +3,13 @@
     <h3>
         Editor-selection-extras
     </h3>
-    <a href="https://marketplace.visualstudio.com/items?itemName=editor-selection-extras">
-        <img src="https://img.shields.io/visual-studio-marketplace/v/editor-selection-extras&amp;label=Marketplace&logo=visual-studio-code" alt="Visual Studio Marketplace Version" />
+    <a href="https://marketplace.visualstudio.com/items?itemName=remigermain.editor-selection-extras">
+        <img src="https://img.shields.io/visual-studio-marketplace/v/remigermain.editor-selection-extras" alt="Visual Studio Marketplace Version" />
     </a>
+        <a href="https://open-vsx.org/extension/remigermain/editor-selection-extras">
+            <img src="https://img.shields.io/open-vsx/v/remigermain/editor-selection-extras"
+            alt="OpenVSX Marketplace Version" />
+        </a>
     <a href="https://github.com/remigermain/vscode-line-count/blob/main/LICENSE">
     <img src="https://img.shields.io/badge/license-MIT-blue" alt="License" />
     </a>

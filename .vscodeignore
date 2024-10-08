@@ -4,5 +4,6 @@ typings/**
 out/test/**
 test/**
 src/**
+release
 **/*.map
 tsconfig.json
