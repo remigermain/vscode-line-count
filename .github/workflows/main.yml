@@ -2,6 +2,10 @@ on:
   push:
     tags:
       - "*"
+  workflow_dispatch:
+    inputs:
+      deploy:
+        description: 're-trigger deploy'
 
 name: Deploy Extension
 jobs:
