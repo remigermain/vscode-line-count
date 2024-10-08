@@ -1,14 +1,19 @@
-<h3>
+<div align="center">
     <img align="center" alt="icon" width="100" src="https://github.com/remigermain/vscode-line-count/blob/main/icon.png?raw=true"> 
-    Editor-selection-extras
-</h3>
+    <h3>
+        Editor-selection-extras
+    </h3>
+    <a href="https://marketplace.visualstudio.com/items?itemName=editor-selection-extras">
+        <img src="https://img.shields.io/visual-studio-marketplace/v/editor-selection-extras&amp;label=Marketplace&logo=visual-studio-code" alt="Visual Studio Marketplace Version" />
+    </a>
+    <a href="https://github.com/remigermain/vscode-line-count/blob/main/LICENSE">
+    <img src="https://img.shields.io/badge/license-MIT-blue" alt="License" />
+    </a>
+</div>
 
-<img src="https://img.shields.io/visual-studio-marketplace/v/editor-selection-extras&amp;label=Marketplace&logo=visual-studio-code" alt="Visual Studio Marketplace Version" /></a>
-![License](https://img.shields.io/badge/license-MIT-blue)
 
 ![preview](https://github.com/remigermain/vscode-line-count/blob/main/img/image.png?raw=true)
 
-blob:https://github.com/a86c2ca2-3f6e-444b-8d5e-dd605b7b017b
 ## Overview
 
 The **Editor-selection-extras** for Visual Studio Code enhances the default line selection functionality by displaying the number of selected lines. With this extension, users can easily see how many lines are currently selected in the editor.
