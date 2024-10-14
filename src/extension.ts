@@ -40,7 +40,7 @@ function onChangeStatusBar(statusBar: vscode.StatusBarItem): void {
 
   editor.selections.forEach((el) => {
     // selected lines
-    let ln = el.end.line - el.start.line
+    let ln = el.end.line - el.start.line || 1
     if (el.end.character === 0) {
       ln -= 1;
     }
