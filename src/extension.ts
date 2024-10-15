@@ -44,7 +44,7 @@ function onChangeStatusBar(statusBar: vscode.StatusBarItem): void {
     if (el.end.character === 0) {
       ln -= 1;
     }
-    info.selected.ln += Math.max(ln, 0)
+    info.selected.ln += ln
 
     // selected word
     const range = new vscode.Range(el.start.line, el.start.character, el.end.line, el.end.character)
