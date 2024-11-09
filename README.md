@@ -1,4 +1,3 @@
-<a href="https://u8views.com/github/remigermain"><img src="https://u8views.com/api/v1/github/profiles/66946113/views/day-week-month-total-count.svg" width="1px" height="1px"></a>
 <div align="center">
     <img align="center" alt="icon" width="100" src="https://github.com/remigermain/vscode-line-count/blob/main/icon.png?raw=true"> 
     <h3>
