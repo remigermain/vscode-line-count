@@ -2,7 +2,7 @@
   "name": "editor-selection-extras",
   "displayName": "Editor selection extras",
   "description": "Display lines/chars number selected and position",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "publisher": "remigermain",
   "icon": "icon.png",
   "repository": {
