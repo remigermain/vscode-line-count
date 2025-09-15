@@ -41,16 +41,18 @@ function onChangeStatusBar(statusBar: vscode.StatusBarItem): void {
   editor.selections.forEach((el) => {
     // selected lines
     let ln = el.end.line - el.start.line
-
+    
+    // selection in on the same line
     if (ln === 0) {
+      // selected >= 1 char, so add one line
       if (el.start.character !== el.end.character) {
         ln += 1
       }
-    } else if (el.end.character === 0) {
-      ln -= 1;
-    } else {
+    // if end line selected is after first char, add one line
+    } else if (el.end.character !== 0) {
       ln += 1
     }
+
     info.selected.ln += ln
 
     // selected word
